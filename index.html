@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batimento de Ponto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Batimento de Ponto</h1>
+        <div class="time-inputs">
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date">
+            
+            <label for="time">Hora:</label>
+            <input type="time" id="time" name="time">
+        </div>
+        <button id="register-entry-btn">Registrar Entrada</button>
+        <button id="register-lunch-out-btn">Registrar Saída para Almoço</button>
+        <button id="register-lunch-in-btn">Registrar Entrada Após Almoço</button>
+        <button id="register-exit-btn">Registrar Saída Final</button>
+        <button id="show-history-btn">Mostrar Histórico</button>
+        <button id="hide-history-btn" style="display: none;">Fechar Histórico</button>
+        <div id="message"></div>
+        <div id="record-date" class="record-date"></div>
+        <div id="history" class="history" style="display: none;"></div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

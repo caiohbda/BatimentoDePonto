@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #121212; 
+    color: #e0e0e0; 
+    margin: 0;
+}
+
+.container {
+    flex: 1;
+    background: #1e1e1e; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    text-align: center;
+}
+
+.time-inputs {
+    margin-bottom: 20px;
+}
+
+input[type="date"], input[type="time"] {
+    background-color: #333; 
+    color: #e0e0e0; 
+    border: 1px solid #555; 
+    padding: 8px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+button {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px; 
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+
+#message {
+    margin-top: 20px;
+    color: #e0e0e0;
+}
+
+.record-date {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e0e0e0; 
+}
+
+.history {
+    margin-top: 20px;
+    text-align: left;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #555;
+    background: #2e2e2e;
+    padding: 10px;
+    border-radius: 4px;
+    color: #e0e0e0;
+}
+
+.history ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.history li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.history li:last-child {
+    border-bottom: none;
+}
+
+.history h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #555;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
